@@ -27,7 +27,7 @@ exploring the data, and getting acquainted with the 3 tables. */
 /* Q1: Some of the facilities charge a fee to members, but some do not.
 Please list the names of the facilities that do. */
 
-SELECT * 
+SELECT name
 FROM  `Facilities` 
 WHERE membercost > 0
 
